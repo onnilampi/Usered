@@ -143,7 +143,7 @@
 			if (empty($_SESSION["username"]) || empty($_SESSION["token"])) $this->resetSession();
 
 			// file location for the user database
-			$dbfile = User::DATABASE_LOCATION  . User::DATABASE_NAME . ".db";
+			$dbfile = "isoskaba.db";
 
 			// do we need to build a new database?
 			$rebuild = false;
